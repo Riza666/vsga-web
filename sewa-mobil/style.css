@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+.captcha-img {
+  max-width: 100%; /* Set the maximum width to fit its container */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 5px; /* Add margin for spacing */
+  margin-left: 5px;
+}
+
+.h1 {
+  margin-top: 10px;
+}

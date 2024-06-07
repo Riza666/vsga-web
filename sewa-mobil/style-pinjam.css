@@ -1,0 +1,44 @@
+/* style_pinjam.css */
+
+/* Tambahkan CSS tambahan di sini sesuai kebutuhan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}

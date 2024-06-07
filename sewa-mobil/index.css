@@ -1,0 +1,16 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/jumbotron.jpg");
+  background-size: cover;
+  height: 685px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.gallery-img {
+  width: 100%;
+}
+#gallery .row > * {
+  padding: 0%;
+}
